@@ -1,9 +1,7 @@
-[class^=col-] {
-    min-height: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;;
-    border: 1px solid #ddd;
-    border: 1px solid rgba(86,61,124,.2);}
+.container,.main,.my-box-img{   
+    padding-top: 20px;
+    padding-bottom: 20px;;
+}
 
     .navbar {
         min-height: 50px;
@@ -19,7 +17,7 @@
     .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-brand:hover {
         color: #1abc9c
     }
-    
+
     img.avatar{
         width: 200px;
     }
@@ -27,6 +25,7 @@
     .bg-green{
         background-color: #1abc9c;
     }
+
     .bg-green p,.bg-green span,.bg-green h1,.bg-green h2,.bg-green h3,
     .bg-green h4,.bg-green h5,.bg-green h6{
         color: white;
@@ -43,4 +42,27 @@
     footer{
         color: white;
         background-color: #3a546d;
+    }
+   
+    span.star::before,span.star:after  {
+        display: inline-block;
+        position: relative;
+        content: "";
+        height: 2px;
+        background: white;
+        width: 100px;
+        vertical-align: middle;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      span.star.black::before,span.star.black:after  {
+        background: #2c3e50;
+      }
+      
+      .form-control {
+        color: #2c3e50;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: none;
     }
