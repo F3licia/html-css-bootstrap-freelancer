@@ -1,4 +1,4 @@
-.container,.main,.my-box-img{   
+.section,.my-box-img{   
     padding-top: 20px;
     padding-bottom: 20px;;
 }
@@ -45,13 +45,13 @@
     }
    
     span.star::before,span.star:after  {
-        display: inline-block;
-        position: relative;
         content: "";
+        display: inline-block;
+        
         height: 2px;
         background: white;
         width: 100px;
-        vertical-align: middle;
+        vertical-align: super;
         margin-right: 10px;
         margin-left: 10px;
       }
@@ -66,3 +66,22 @@
         border-radius: 4px;
         -webkit-box-shadow: none;
     }
+
+    .mini-link{
+        width: 5px;
+        height: 5px;
+        margin: 2px;
+        border: 1px solid white;
+        padding: 10px 2px;
+        border-radius: 50%;
+        display: inline;
+    }
+        .mini-link img{
+        margin:5px;
+        width: 20px;
+        color: white;
+    }
+
+  
+      
+
